@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Task2.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="#" class="nav-logo">Portfolio</a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#Project" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#form" class="nav-link">Contact</a></li>
+                <li class="nav-item"><button class="btn">Download CV</button></li>
+            </ul>
+
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+    <hr>
+    <div class="container-main" id="about">
+        <div class="container-sub">
+            <span class="header">I'm Manjur Shaikh,<br>
+                A Web Developer,<br>Designer & C++ Programmer<br>
+                Based In Pune.
+                <p>I'm Probably the most passionate web Developer <br>you will ever get to work with.
+                    if <br>you have a great project that need some amazing skills,i'm your guy.
+                </p>
+            </span>
+        </div>
+    </div>
+    <div class="main" id="Project">
+        <h2>Projects</h2>
+        <hr><br><br>
+        <div class="project-container">
+            <div class="iteam"><button class="iteam-btn">Bank Management System</button><br>
+                In this project we can do banking operations like Ac open, close Ac, deposit
+                amount, withdraw amount, update records, balance check and display records. I
+                have stored data about The user in a text file.<br><br>
+                <button class="b">Learn More</button><br><br>
+            </div>
+            <div class="iteam"><button class="iteam-btn">Calculator Using HTML</button><br>
+                To design the basic calculator, we will use HTML, CSS, and JavaScript. HTML is used to design
+                the basic structure of the calculator. CSS styles are used to apply styles on the calculator and
+                JavaScript is used to add the calculation functionality.<br><br>
+                <button class="b">Learn More</button><br><br>
+            </div>
+            <div class="iteam"><button class="iteam-btn">Voice Control Robot</button><br>
+                The robot can move forward, backward, left, and right and can also be
+                stopped. We can give specific voice commands to the robot through an Android
+                app installed on the phone.<br><br><br>
+                <button class="b">Learn More</button><br><br>
+            </div>
+        </div>
+    </div>
+
+    <div class="column" id="form">
+        <h2>Contact Me</h2>
+        <form action="#">
+            <label>First Name</label><br>
+            <input type="text" id="fname" placeholder="Your name.."><br>
+            <label>Last Name</label><br>
+            <input type="text" id="lname" placeholder="Your last name.."><br>
+            <label>Country</label><br>
+            <select name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+            </select><br>
+            <label>Subject</label><br>
+            <textarea id="subject" placeholder="Write something.." style="height:170px"></textarea><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <div class="nav-b"><a href="#about">^</a></div>
+    <script type="text/javascript" src="Task2.js"></script>
+</body>
+
+</html>
